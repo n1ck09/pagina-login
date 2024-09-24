@@ -1,0 +1,103 @@
+/* Reset básico para garantir consistência entre navegadores */
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+#loginButton {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#loginButton:hover {
+    background-color: #e2e6ea;
+}
+
+/* Estilização do formulário */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.login-form {
+    background: #fff;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.8em;
+    background-color: #4dff00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #00b36b;
+}
+
+/* Estilização do rodapé */
+footer {
+    background-color: #00ffc8;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
